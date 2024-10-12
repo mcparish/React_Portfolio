@@ -10,27 +10,32 @@ import './index.css';
 import AboutPage from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <App/>,
+    path: "/",
+    element: <App />,
     children: [
       {
         path: "/About",
-        element: <AboutPage />
+        element: <AboutPage />,
       },
       {
         path: "/contact",
-        element: <Contact />
+        element: <Contact />,
       },
-            {
+      {
         path: "/Portfolio",
-        element: <Portfolio />
-      }
-    ]
-  }
+        element: <Portfolio />,
+      },
+      {
+        path: "/resume",
+        element: <Resume />,
+      },
+    ],
+  },
 ]);
 
 

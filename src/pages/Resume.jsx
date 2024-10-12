@@ -3,7 +3,12 @@ export default function Blog() {
     <div>
       <h1>Resume</h1>
       <p>
-        JavaScript, GraphSql, React, PostgresSQL, and Node.js are some of the technologies I use to build web applications.
+        <li>JavaScript</li>
+        <li>GraphSql</li>
+        <li>React</li>
+        <li>PostgresSQL</li>
+        <li>Node.js</li>
+        
       </p>
     </div>
   );
