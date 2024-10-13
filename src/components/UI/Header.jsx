@@ -11,13 +11,9 @@ const Header = () => {
       </div>
       <nav className="navbar">
         <ul>
+        
           <li>
-            <NavLink exact to="/" activeClassName="active-link">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/About" activeClassName="active-link">
+            <NavLink to="/" activeClassName="active-link">
               About
             </NavLink>
           </li>

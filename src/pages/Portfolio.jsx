@@ -1,51 +1,52 @@
 export default function Portfolio() {
   const projects = [
     {
-      title: "Project 1",
-      image: "https://placehold.co/600x400",
-      link: "https://www.google.com",
+      title: "Social Network API",
+      image: "src/assets/images/SocialNetworkAPI.png",
+      link: "https://drive.google.com/file/d/1U9S8dUx8Mb0mHZhe3G_rN1ZqCMdzCzST/view",
     },
     {
-      title: "Project 2",
-      image: "https://placehold.co/600x400",
-      link: "https://www.google.com",
+      title: "SVG Logo Maker",
+      image: "src/assets/images/SVGscreenshot.png",
+      link: "https://drive.google.com/file/d/1T1jUAK1fYqv1SOdLQaxIVKcK8xzE4BtS/view",
     },
     {
-      title: "Project 3",
-      image: "https://placehold.co/600x400",
-      link: "https://www.google.com",
+      title: "MERN Book Search Engine",
+      image: "src/assets/images/MERN.png",
+      link: "https://mern-book-search-engine-vpjt.onrender.com/",
     },
     {
-      title: "Project 4",
-      image: "https://placehold.co/600x400",
-      link: "https://www.google.com",
+      title: "Note Taker",
+      image: "src/assets/images/NoteTaker.png",
+      link: "https://note-taker-3-p60x.onrender.com",
     },
     {
-      title: "Project 5",
-      image: "https://placehold.co/600x400",
-      link: "https://www.google.com",
+      title: "ORM E-Commerce Back End",
+      image: "src/assets/images/ORM.png",
+      link: "https://drive.google.com/file/d/1iSNbOWsYB4zLRqSJwjACCEzyBZhScXMX/view",
     },
     {
-      title: "Project 6",
-      image: "https://placehold.co/600x400",
-      link: "https://www.google.com",
+      title: "PWA Text Editor",
+      image: "src/assets/images/PWA.png",
+      link: "https://pwa-text-editor-cgjr.onrender.com/",
     },
-    
   ];
 
   return (
     <div>
-      <h1>Portfolio Page</h1>
-      <div>
+      <h1>Portfolio</h1>
+      <div className="grid-container">
         {projects.map((project, i) => {
           return (
+            
             <article
               key={i}
-              className="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+              className="relative w-80 h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
               style={{
                 backgroundImage: `url(${project.image})`,
               }}
             >
+                
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
               <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
                 <h3 className="text-center">
@@ -56,6 +57,7 @@ export default function Portfolio() {
                     <span className="absolute inset-0"></span>
                     {project.title}
                   </a>
+                  
                 </h3>
               </div>
             </article>

@@ -4,9 +4,6 @@ import React from 'react';
 export default function AboutPage() {
   return (
     <div className="container pt-4">
-      <p>
-        This will be the section where I will talk about myself for my portfolio.  
-      </p>
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">
@@ -15,24 +12,32 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
-                <h3>Fully Responsive</h3>
-                <p className="lead mb-0">
-                  This theme will look great on any device, no matter the size!
+                <h3></h3>
+                <p className="lead mb-0" 
+                >
+                  
+                  
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-8">
               <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <div className="features-icons-icon d-flex">
                   <i className="bi-layers m-auto text-primary" />
                 </div>
-                <h3>Bootstrap 5 Ready</h3>
+                <h3>About Me</h3>
                 <p className="lead mb-0">
-                  Featuring the latest build of the new Bootstrap 5 framework!
+                  I am currently a student in the University of Denver full
+                  stack coding bootcamp. After graduating from the University of
+                  Colorado at Boulder with a degree in Molecular, Cellular, and
+                  Developmental Biology, I started my professional career
+                  working in Autoimmune research. I have always had a love for
+                  the tech industry and recently decided that this is how I
+                  would like to spend the rest of my professional career. I love all things Colorado, including skiing, trail running, and getting up to the mountains whenever I have an opportunity. I am excited to see where this new career path takes me..
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                 <div className="features-icons-icon d-flex">
                   <i className="bi-terminal m-auto text-primary" />
@@ -43,18 +48,12 @@ export default function AboutPage() {
                   files!
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+        
       </p>
     </div>
   );
