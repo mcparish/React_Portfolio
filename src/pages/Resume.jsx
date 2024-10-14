@@ -3,8 +3,7 @@ export default function Blog() {
     <div>
       <h1>Resume</h1>
 
-      <h2>Education</h2>
-        <p>B.A. University of Colorado at Boulder 2001-2005</p>
+      
         <h2>Skills</h2>
       <p>
         <li>JavaScript</li>
@@ -12,6 +11,14 @@ export default function Blog() {
         <li>React</li>
         <li>PostgresSQL</li>
         <li>Node.js</li>
+        <li>Express.js</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>MongoDB</li>
         
       </p>
     </div>

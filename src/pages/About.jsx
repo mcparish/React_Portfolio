@@ -12,6 +12,7 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
+                <img src = "src/assets/images/IMG_7554.jpeg" alt = "placeholder" className="img-fluid" style={{ width: '270px', height: '270px', borderRadius: '90px' }} />
                 <h3></h3>
                 <p className="lead mb-0" 
                 >
