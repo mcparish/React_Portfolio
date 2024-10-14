@@ -1,8 +1,23 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+In this project I was given the task to create a single-page application for a web developer.  I was able to use my React skills to build a single-page site that shows off my portfolio, a section about me, my resume, and finally contact information.  After creating the app I was able to deploy the app to netlify. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Note:  I did encounter a problem in which my images did not render after deploying through netlify.  This was one of the challenges I need to address before making this application my official portfolio.  
+
+## Installation
+
+By setting up this react app you first need to install all dependencies followed by the command npm run develop. This command will now allow the page to render with the ability to track real time changes as the app continues to grow.  
+
+##  Uses
+
+Once the app is accessed by a user, the user can now navigate through the various links, About Me, Portfolio, Resume, and Contact.  When in the Portfolio section the user will now be able to click on the various projects which will then direct the user to either the deployed web page or the walkthrough video describing the project.  
+
+## Deployed Website
+
+https://670d9f48e95b537bd541a05d--mparishportfolio.netlify.app/
+
+## License
+
+MIT License
